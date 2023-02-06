@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styleSheet.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script>
+    function validform() {
+      var uName = document.getElementById("username").value
+      var uMobile = document.getElementById("userMobile").value
+      var uEmail = document.getElementById("userEmail").value
+      var uMessage = document.getElementById("userMessage").value
+      if (uName == "") {
+        console.log(document.getElementById("uName").innerHTML = "Please Enter Your Name")
+        return false
+      }
+      else {
+        docment.getElementById("uName").innerHTML = ""
+      }
+      if (document.myform.usermobileno.value == "") {
+        console.log(document.getElementById("uMobile").innerHTML = "please enter your mobile number")
+        return false
+      }
+      else {
+        document.getElementById("uMobile").innerHTML = ""
+      }
+      if (document.myform.useremail.value == "") {
+        console.log(document.getElementById("uEmail").innerHTML = "please enter your email")
+        return false
+      } else {
+        document.getElementById("uEmail").innerHTML = ""
+      }
+      if (document.myform.usermessage.value == "") {
+        console.log(document.getElementById("uMessage").innerHTML = "please enter your message")
+        return false
+      } else {
+        document.getElementById("uMessage").innerHTML = ""
+      }
+
+    }
+
+  </script>
+</head>
+
+<body>
+  <section id="hero">
+
+    <div class="header">
+      <ul class="menu">
+        <a href="#hero">
+          <li>Home</li>
+        </a>
+        <a href="#services">
+          <li>services</li>
+        </a>
+        <a href="#projects">
+          <li>my projects</li>
+        </a>
+        <a href="#about">
+          <li>about me</li>
+        </a>
+        <a href="#connect">
+          <li>connect me</li>
+        </a>
+        <a href="#contact">
+          <li>contact me</li>
+        </a>
+
+      </ul>
+    </div>
+
+    <div class="container">
+      <h1 class="txt1">Hello,<span class="bg1"></span></h1>
+      <h1 class="txt2">My name is<span class="bg2"></span></h1>
+      <h1 class="txt3">Md Intekhab Ashraf<span class="bg3"></span></h1>
+      <a href="#contact" class="cta">Contact me</a>
+
+    </div>
+
+
+  </section>
+  <!-- MY SERVICES START -->
+  <section id="services">
+    <div class="container">
+      <div class="top-section">
+        <h2>Serv<span>i</span>ces</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reprehenderit earum distinctio</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reprehenderit earum distinctio</p>
+      </div>
+
+      <div class="bottom-section">
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="./images/html.png" />
+          </div>
+          <h1>HTML</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque, officiis deleniti at
+            perspiciatis veritatis</p>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="./images/CSS.png" />
+          </div>
+          <h1>CSS</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque, officiis deleniti at
+            perspiciatis veritatis impedit</p>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="./images/Javascript.png" />
+          </div>
+          <h1>JAVA SCRIPT</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque, officiis deleniti at
+            perspiciatis veritatis impedit</p>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">
+            <img src="./images/reactjs.png" />
+          </div>
+          <h1>ReactJS</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque, officiis deleniti at
+            perspiciatis veritatis impedit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECT SECTION START -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-title">
+        <h2><span>my</span> projects</h2>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-item-top">
+            <h1>facebook</h1>
+            <h3>make new friends</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt unde architecto a illo optio!
+              Provident, eum est. Omnis molestias aperiam dolores provident aliquam.</p>
+          </div>
+          <div class="project-item-bottom">
+            <img src='./images/facebook.jpg' />
+          </div>
+        </div>
+        <div>
+          <div class="project-item">
+            <div class="project-item-top">
+              <h1>instagram</h1>
+              <h3>make new friends</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt unde architecto a illo
+                optio! Provident, eum est. Omnis molestias aperiam dolores provident aliquam.</p>
+            </div>
+            <div class="project-item-bottom">
+              <img src='./images/instagram.jpg' />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="project-item">
+            <div class="project-item-top">
+              <h1>LinkedIn</h1>
+              <h3>make new friends</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt unde architecto a illo
+                optio! Provident, eum est. Omnis molestias aperiam dolores provident aliquam.</p>
+            </div>
+            <div class="project-item-bottom">
+              <img src='./images/linkedin.jpg' />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about me section -->
+
+  <section id="about">
+    <div class="container">
+      <div class="about-title">
+        <h1>ABOUT <span>ME</span></h1>
+      </div>
+      <div class="about-subtitle">
+        <h3><span>MD INTEKHAB ASHRAF</span> - Software Developer</h3>
+      </div>
+
+      <div class="about-items">
+        <div class="about-content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Nulla, blanditiis odio laboriosam id rem
+            excepturi nemo voluptates quia quisquam minima
+            corrupti minus assumenda, incidunt molestias
+            repudiandae nisi adipisci cupiditate deleniti!
+            hjfbsdjfhfhsdjfs,adk sdjfhsalzhds dhskdhaskzietri
+            cdfheurc dgsdmb,dhv fsidsjdbksfus vfskjhc rfchdfnvsel
+            fiehfjfhruerv ihfeiyrehd vte serfbnh g hhfvjdgbm
+            fdkhg
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="./images/Intekhab image.jpg" />
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- about me section end -->
+
+  <!-- CONNECT ME SECTION START -->
+
+  <section id="connect">
+    <div class="container">
+      <div class="connectme-title">
+        <h2>CONNECT <span>ME</span></h2>
+      </div>
+      <div class="social-connect">
+        <div class="connectme">
+          <div class="connectme-img">
+            <a href="mailto:mdintekhabashraf@gmail.com" target="_blank"><img src="images/gml.png" /></a>
+            <a href=https://www.facebook.com/INTEKHA target="_blank"><img
+                src="images/face.png" /></a>
+            <a href="https://www.instagram.com/mdintekhabashrafzahiri/" target="_blank"><img src="images/insta.png" /></a>
+            <a href="https://twitter.com/MdIntekhabAshr1" target="_blank"><img src="images/twitter1.png" /></a>
+            <a href="https://www.linkedin.com/in/md-intekhab-ashraf-1b0630144/" target="_blank"><img src="images/linkedn.png" /></a>
+
+          </div>
+        </div>
+        <div class="contact-me">
+          <div class="contact-info">
+            <div class="info-item">
+              <img src="images/call1.png" />
+              <h4>+918674942491</h4>
+
+            </div>
+            <div class="info-item">
+              <img src="images/email1.png" />
+              <h4>mdintekhabashraf@gmai.com</h4>
+
+            </div>
+            <div class="info-item">
+              <img src="images/whatsapp1.png" />
+              <h4>+918674942491</h4>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <!-- CONNECT ME SECTION END -->
+
+  <!-- CONTACT ME STARTS -->
+  <section id="contact">
+    <div class="container">
+      <div class="contactme-title">
+        <h1><span>CONTACT </span>ME</h1>
+      </div>
+      <div class="contactme">
+      </div>
+      <form name="myform" action="#" onsubmit="return validform()">
+        <input type="text" id="userName" class="name" placeholder="Name" name="username" />
+        <p id="uName"></p><br>
+        <input type="text" id="userMobile" class="mobile" placeholder="Mobile no" name="usermobileno" />
+        <p id="uMobile"></p><br>
+        <input type="text" id="userEmail" class="email" placeholder="Email" name="useremail" />
+        <p id="uEmail"></p><br>
+        <textarea placeholder="message" id="userMessage" class="message" name="usermessage"></textarea>
+        <p id="uMessage"></p><br>
+        <input class="submit" type="submit" />
+      </form>
+    </div>
+
+    </div>
+  </section>
+  <!-- CONTACT ME ENDS -->
+</body>
+
+</html>
+</body>
+
+</html>
